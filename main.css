@@ -1,0 +1,404 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+body {
+  font-family: "Avenir Next";
+  background-color: black;
+  
+}
+section {
+	width:102%;
+	height:675px;
+	background-size:cover;
+	background-repeat:no-repeat;
+    position: relative;
+    
+    
+}
+
+
+
+.header-list li {
+  list-style: none;
+  float:left;
+  padding:40px 20px;
+  font-size:20px;
+  color:black;
+  
+}
+.header-list ul li a:hover{
+    background-color:white;
+    color:black;
+
+}
+
+.header{
+ 
+  background-color:#d41822;
+  color:rgb(2, 4, 17);
+  height:80px;
+  
+}
+.header-logo span{
+    color:rgb(190, 179, 181);
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color:black;
+}
+
+.header-logo {
+  font-size:26px;
+  float:left;
+  padding:20px 40px;
+  margin-right:500px;
+  color:black;
+}
+.active{
+	color:#f0eaea;
+	font-weight:bold;
+}
+
+
+
+.main{
+    max-width:1200px;
+    margin:auto;
+}
+.main h2{
+    font-size:50px;
+    padding-left:190px;
+    padding-top:20px;
+    letter-spacing:2px;
+    color:rgb(235, 236, 232);
+}
+
+.text-container h1{
+	font-family: calibri;
+	font-weight:bold;
+	color:#c8cab6;
+	
+}
+.text-container .me{
+	font-family:calibri;
+	font-weight:bold;
+	letter-spacing:2px;
+	color:#8d24e2;
+	font-size:60px;
+	
+}
+.text-container .sub{
+	font-family: myriad pro regular;
+	color: #bad138;
+    font-size:30px;
+    padding-top:20px;
+    line-height:0px;
+    
+}
+ 
+.text-container p{
+	margin:45px 0px 25px;
+	line-height:5px;
+}
+.text-container .connect{
+    color:white;
+    font-size:20px;
+    padding-top:50px;
+    padding-bottom:10px;
+    
+
+}
+
+.text-container{
+	position: absolute;
+	left:20%;
+	top:57%;
+    transform:translate(-13%,-42%);
+    margin:20px 60px;
+    
+}
+.image{
+    height:305px;
+	position:absolute;
+    bottom:105px;
+    border-radius: 20px;
+    padding:10px;
+    background-color:rgb(22, 23, 94);
+    left:65%;
+    transform: translateX(-75%);
+}
+.main i{
+    letter-spacing:10px;
+    font-size:30px;
+    color:rgb(23, 180, 62)
+}
+
+
+
+
+
+
+
+.about-container{
+	width:100%;
+	height:675px;
+	background:#f5f3f3;
+	display:flex;
+	position: relative; 
+}
+.about-text h1{
+    padding:30px 50px;
+    text-align:center;
+    font-size:120px;
+    color:rgb(143, 3, 3);
+}
+.about-text .line1{
+    padding-top:2px;
+    text-align:center;
+    font-size:40px;
+     color:rgb(19, 37, 204);
+    
+}
+.about-text .line2,.line3{
+    color:rgb(19, 14, 14);
+    padding: 50px 65px;
+    font-size:35px;
+    margin-right:0px;
+}
+
+
+
+
+
+.education{
+    width:100%;
+	height:675px;
+	background:#181717;
+	display:flex;
+	position: relative; 
+}
+
+.content h1{
+    color:rgb(214, 57, 57);
+    text-align:center;
+    padding:30px 370px;
+    font-size:45px;
+}
+
+  .box-container{
+	display:flex;
+    justify-content:space-between;
+  }
+.box-1,.box-2,.box-3{
+	width: 400px;
+	height:420px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow:20px 10px 18px 10px rgba(228, 216, 216, 0.3);
+	align-items: center;
+	justify-content:center;
+	display: flex;
+	flex-direction:column;
+	margin: 20px 25px;
+	
+	
+}
+.box-1 .details,
+.box-2 .details,
+.box-3 .details{
+	color:#ffffff;
+    font-family: calibri;
+    padding-top:30px;
+    padding-bottom:10px;
+	font-size: 28px;
+	line-height:30px;
+}
+.box-1 .date,
+.box-2 .date,
+.box-3 .date{
+	font-family: calibri;
+	color:#a59f9f;
+	text-align:center;
+	width: 230px;
+    margin:0px 0px 20px 0px;
+    line-height:30px;
+    font-size:20px;
+}
+.box-1 .heading,
+.box-2 .heading,
+.box-3 .heading{
+    color:blue;
+    font-size:40px;
+    padding-bottom:20px;
+}
+
+
+
+
+.skills-list{
+    width:100%;
+	height:675px;
+	background:#ebe4e4;
+	display:flex;
+	position: relative; 
+}
+.subject h1{
+    color:rgb(231, 9, 9);
+    text-align:center;
+    padding:30px 395px;
+    font-size:55px;
+
+}
+.subject p { 
+    font-size: 20px; 
+    padding-bottom:10px;
+} 
+
+.subject .container { 
+    background-color: rgb(192, 192, 192); 
+    width: 1200px; 
+    border-radius: 10px; 
+    margin-left:70px;
+    margin-bottom:20px;
+} 
+.subject p{
+    margin-left:20px;
+    text-align:center;
+    padding-top:5px;
+    font-weight: bold;
+    font-size:25px;
+    
+    
+
+}
+
+.container .skill { 
+    background-color: rgb(56, 148, 28); 
+    color: white; 
+    padding: 1%;
+    text-align: right; 
+    font-size: 20px; 
+    border-radius: 15px; 
+} 
+
+.container .html { 
+    width: 70%; 
+} 
+.container .css { 
+    width: 70%; 
+} 
+
+.container .C { 
+    width: 80%; 
+} 
+.container .python { 
+    width: 80%; 
+} 
+.container .java { 
+    width: 60%; 
+} 
+
+
+
+.myhobbies{
+    width:100%;
+	height:675px;
+	background:#141414;
+	display:flex;
+	position: relative; 
+}
+.myhobbies h3{
+    color:rgb(190, 11, 11);
+    font-size:45px;
+    padding:30px 395px;
+    text-align:center;
+}
+ .myhobbies .column {
+        float: left;
+        width: 30%;
+        
+        padding: 10px;
+        margin-left:20px;
+        margin-top:100px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color:white;
+    }
+      
+      
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .myhobbies .column .container1 {
+        text-align: center;
+        padding: 20px 20px;
+        color:rgb(20, 20, 20);
+        font-size:30px;
+      }
+      .myhobbies .column .container2 {
+        text-align: center;
+        padding: 20px 20px;
+        color:rgb(20, 20, 20);
+        font-size:30px;
+      }
+      .myhobbies .column .container3 {
+        text-align: center;
+        padding: 33px 20px;
+        color:rgb(20, 20, 20);
+        font-size:30px;
+      }
+
+
+
+      .project-title{
+        width:100%;
+        height:675px;
+        background:#faf9f9;
+        display:flex;
+        position: relative; 
+    }
+    .project-title h3{
+        color:rgb(199, 23, 23);
+    text-align:center;
+    padding:30px 370px;
+    font-size:45px;
+
+    }
+    .project-title p{
+        color:rgb(9, 9, 61);
+        padding-left:410px;
+        font-size:28px;  
+    }
+    .project-title video{
+        padding:0px 410px;
+    }
+
+
+    footer {
+        text-align: center;
+        padding: 3px;
+        height:100px;
+        background-color: rgb(3, 3, 3);
+        color: white;
+      }
+      .foot p{
+          letter-spacing:2px;
+          margin-top:30px;
+          text-align:center;
+          color:white;
+      }
+      
+      
+     
+
+
+
+   
